@@ -540,6 +540,14 @@ a {
   border-color: #4dc0b5;
 }
 
+.hero {
+  background: url("/img/tailwind_bg.jpg");
+}
+
+.h-112 {
+  height: 28rem;
+}
+
 /**
   * This injects any component classes registered by plugins.
   *

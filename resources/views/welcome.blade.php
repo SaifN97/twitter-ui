@@ -14,7 +14,7 @@
 
 <body class="bg-grey-light font-sans">
     <div class="bg-white">
-        <div class="container mx-auto flex items-center py-4">
+        <div class="container mx-8 flex items-center py-4">
             <nav class="w-2/5">
                 <a href="#" class="top-nav-item"><i class="fa fa-home fa-lg"></i>Home</a>
                 <a href="#" class="top-nav-item"><i class="fa fa-bolt fa-lg"></i>Moments</a>
@@ -37,8 +37,60 @@
                         class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Tweet</button>
                 </div>
             </div>
-        </div>
+        </div> {{-- End of the container --}}
     </div>
+
+    <div class="hero h-64 bg-cover"></div>
+
+    <div class="bg-white shadow">
+        <div class="container mx-8 flex items-center">
+            <div class="w-1/4">
+                <img src="/img/tailwind_logo.jpg" alt="logo" class="rounded-full h-48 w-48 absolute pin-l -mt-32 mx-8">
+            </div>
+            <div class="w-1/2">
+                <ul class="list-reset flex">
+                    <li class="text-center py-3 px-4 border-b-2 border-solid border-teal">
+                        <a href="#" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Tweets</div>
+                            <div class="text-lg tracking-tight font-bold text-teal">60</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="#" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Following</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">4</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="#" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Followers</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">3,810</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="#" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Likes</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">9</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="#" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Moments</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">1</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-1/4 flex justify-end items-center">
+                <div class="mr-6">
+                    <button
+                        class="bg-teal hover:bg-blue-dark text-white font-medium py-2 px-4 rounded-full">Following</button>
+                </div>
+                <div>
+                    <a href="#" class="text-grey-dark"><i class="fa fa-ellipsis-v fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
 
 </body>
 
