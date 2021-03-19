@@ -90,8 +90,63 @@
                     <a href="#" class="text-grey-dark"><i class="fa fa-ellipsis-v fa-lg"></i></a>
                 </div>
             </div>
+        </div> {{-- end of the container --}}
+
+    </div>
+
+    <div class="container mx-8 flex mt-3 text-sm leading-normal">
+
+        <div class="w-1/4 pr-4 mt-8 mb-4">
+            <h1><a href="#" class="text-black">Tailwind CSS</a></h1>
+            <div class="text-grey-darker"><a href="#">@tailwindcss</a></div>
+
+            <div class="mb-4">
+                A utility-first CSS framework for rapid UI development. By <a href="#">@adamwathan</a>, <a
+                    href="#">@reinink</a>, <a href="#">@davidhemphill</a>, and <a href="#">@steveschoger</a>.
+            </div>
+
+            <div class="mb-2"><i class="fa fa-link fa-lg text-grey-darker mr-1"></i><a href="#">tailwindcss.com</a>
+            </div>
+            <div class="mb-4"><i class="fa fa-calendar fa-lg text-grey-darker mr-1"></i><a href="#">Joined August
+                    2017</a></div>
+
+            <div class="mb-4">
+                <button
+                    class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-10">Tweet
+                    to Tailwind CSS</button>
+            </div>
+
+            <div class="mb-4"><i class="fa fa-user fa-lg text-grey-dark mr-1"></i><a href="#">27 Followers you know</a>
+            </div>
+
+            <div class="mb-4">
+                <a href="#"><img src="/img/follower01.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower02.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower03.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower04.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower05.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower06.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower07.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower08.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower09.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                <a href="#"><img src="/img/follower10.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+            </div>
+
+            <div class="mb-4"><i class="fa fa-picture-o fa-lg text-grey-dark mr-1"></i><a href="#">Photos and videos</a>
+            </div>
+
+            <div class="mb-4">
+                <a href="#"><img src="/img/photo1.jpg" alt="photo" class="h-24 w-24 mr-1 mb-1"></a>
+                <a href="#"><img src="/img/photo2.jpg" alt="photo" class="h-24 w-24 mr-1 mb-1"></a>
+                <a href="#"><img src="/img/photo3.jpg" alt="photo" class="h-24 w-24 mr-1 mb-1"></a>
+                <a href="#"><img src="/img/photo4.jpg" alt="photo" class="h-24 w-24 mr-1 mb-1"></a>
+                <a href="#"><img src="/img/photo5.jpg" alt="photo" class="h-24 w-24 mr-1 mb-1"></a>
+            </div>
         </div>
 
+        <div class="w-1/2"></div>
+        <div class="w-1/4"></div>
+    </div>
 </body>
 
 </html>
